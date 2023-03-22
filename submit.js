@@ -1,7 +1,7 @@
 const shell = require("shelljs");
 
 // 제출할 파일
-const problem = "minusCalculatorSol.js";
+const problem = "multiplyCalculatorSol.js";
 const submitScript = `npx hardhat --network goerli run scripts/${problem}`;
 
 const submit = async () => {
